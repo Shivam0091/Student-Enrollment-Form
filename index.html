@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Task3-LGM</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="box">
+    <div class="headinggg">
+      <h1>STUDENT ENROLLMENT FORM</h1>
+    </div>
+    <div class="container">
+      <div class="form">
+        <form autocomplete="off">
+          <div class="name">
+            <label for="name">Name:-</label>
+            <input type="text" id="name" placeholder="Enter your name hare" required>
+          </div>
+          <div class="email">
+            <label for="email">Email:-</label>
+            <input type="email" id="email" placeholder="Enter your email here" required>
+          </div>
+          <div class="website">
+            <label for="website">Website:-</label>
+            <input type="url" id="website" placeholder="https://www.xyz.com" required>
+          </div>
+          <div class="image">
+            <label for="url">Image Link:-</label>
+            <input type="url" id="url" placeholder="Enter your image url here" required>
+          </div>
+          <div class="gender">
+            <label for="gender">Gender:-</label>
+            <span class="text-p">
+              <label><input type="radio" name="male-female" id="male" value="Male" required>Male</label>
+              <label><input type="radio" name="male-female" id="female" value="Female" required>Female</label>
+            </span>
+          </div>
+          <div class="skills">
+            <label for="skills">Skills:-</label>
+            <span class="text-p">
+              <label><input type="checkbox" value="HTML" id="html" class="checkbox">HTML</label>
+              <label><input type="checkbox" value="CSS" id="css" class="checkbox">CSS</label>
+              <label><input type="checkbox" value="JavaScript" id="css" class="checkbox">JavaScript</label>
+              <label><input type="checkbox" value="JavaScript" id="css" class="checkbox">Python</label>
+            </span>
+          </div>
+          <div class="button">
+            <button type="submit" id="submit">Enroll Student</button>
+            <button type="reset" id="reset">Clear</button>
+          </div>
+        </form>
+      </div>
+      <div class="line"></div>
+      <div class="op-box">
+        <div class="output">
+          <h2>Enrolled Students</h2>
+          <div class="cardContainer" id="cardContainer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
